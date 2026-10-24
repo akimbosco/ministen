@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="What information Ministen uses, where it stays, and how you can control or delete it.">
+  <meta name="theme-color" content="#f5f8f7">
+  <title>Privacy Policy — Ministen</title>
+  <link rel="canonical" href="https://akimbosco.github.io/ministen/privacy-en.html">
+  <link rel="alternate" hreflang="it" href="https://akimbosco.github.io/ministen/privacy.html">
+  <link rel="alternate" hreflang="en" href="https://akimbosco.github.io/ministen/privacy-en.html">
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .policy-hero { padding-block: 3rem; }
+    .policy-hero h1 { font-size: clamp(2.4rem, 6vw, 4.5rem); }
+    .policy-layout { padding-top: 3rem; }
+    .language-links { display: flex; gap: 1rem; margin-bottom: 1.5rem; }
+    .language-links a { text-underline-offset: 4px; }
+    .version-note { margin-top: 2rem; padding: 1.25rem; border-left: 4px solid var(--green); background: var(--mist); }
+    .version-note p { margin: .5rem 0 0; color: var(--muted); }
+    .policy-copy code { overflow-wrap: anywhere; font-size: .9em; }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header"><div class="shell header-inner">
+    <a class="wordmark" href="index.html" aria-label="Ministen home">Ministen</a>
+    <nav aria-label="Main navigation"><a href="index.html#about">About</a><a aria-current="page" href="privacy-en.html">Privacy</a><a href="index.html#contact">Contact</a></nav>
+  </div></header>
+  <main id="main-content" class="policy-main">
+    <header class="policy-hero shell">
+      <div class="language-links" aria-label="Language / Lingua"><a lang="it" hreflang="it" href="privacy.html" >Italiano</a><a lang="en" hreflang="en" href="privacy-en.html" aria-current="page">English</a></div>
+      <p class="eyebrow">Ministen</p><h1>Privacy Policy</h1><p class="policy-lead">What information Ministen uses, where it stays, and how you can control or delete it.</p>
+      <p class="updated"><time datetime="2026-10-24">Updated on 24 October 2026</time></p>
+      <div class="version-note"><strong>App versions</strong><p>This policy covers the existing diary and the features of version 1.5 being prepared. Sections marked “version 1.5” apply only to builds that include those features: they may not yet be present in your app. The operating-system controls described in the deletion section remain available in earlier versions.</p></div>
+    </header>
+    <div class="shell policy-layout">
+      <aside aria-label="On this page"><p>On this page</p><ol><li><a href="#app-data">Data processed in the diary</a></li>
+<li><a href="#health-connect">Health Connect and Apple Health — version 1.5</a></li>
+<li><a href="#motion">Tests, sensors and estimates — version 1.5</a></li>
+<li><a href="#storage">Local storage and protection</a></li>
+<li><a href="#retention">How long data is kept</a></li>
+<li><a href="#deletion">How to delete data</a></li>
+<li><a href="#permissions">Choice, disabling imports and revocation</a></li>
+<li><a href="#export">Exports, sharing and other services</a></li>
+<li><a href="#website">Website and access to this policy</a></li>
+<li><a href="#contact-policy">Developers and privacy contact</a></li></ol></aside>
+      <article class="policy-copy"><section id="app-data"><h2>1. Data processed in the diary</h2>
+<p>Ministen is a personal diary for myasthenia gravis. Information you choose to enter may include your name, surname, date of birth, weight, height, sex, medication and doses, daily medication intake, side effects, symptoms, questionnaire responses, quality of life and free-text notes. This is personal and health information.</p>
+<p>The app uses this information on your device to store the diary, display history and charts, and prepare reports you request. Version 1.5 adds optional activity imports, an upper limb test and estimates derived from questionnaire responses.</p>
+<p>Ministen does not provide a cloud account or a central health-data database. The diary is not automatically sent to Ministen’s developers.</p></section>
+<section id="health-connect"><h2>2. Health Connect and Apple Health — version 1.5</h2>
+<p>If you enable activity imports, Ministen requests read-only access to <strong>steps and active calories</strong> from Health Connect on Android or Apple Health (HealthKit) on iPhone, where available. These data allow daily activity totals to appear alongside symptom trends in your diary.</p>
+<p>Before the permission request, the app explains this use and offers <strong>Agree and continue</strong> and <strong>Continue without importing</strong>. You can use the diary without connecting this data. On Android the requested permissions are <code>READ_STEPS</code> and <code>READ_ACTIVE_CALORIES_BURNED</code>; Ministen does not write to your Health Connect store.</p>
+<p>The app requests available samples for the <strong>last 30 days</strong> and calculates daily totals on your device. It stores the date and daily steps and calorie totals, without keeping the individual sample list or source-app names. Actual availability depends on existing data and the permissions granted.</p>
+<p>On subsequent app launches, an enabled import updates this window using existing permissions. It does not import in the background while the app is closed. Previously imported totals can remain in the diary for longer than 30 days: the read window is not a retention limit.</p></section>
+<section id="motion"><h2>3. Tests, sensors and estimates — version 1.5</h2>
+<p>When you start the Upper Limb Test, the app processes motion-sensor data locally to estimate changes in the phone’s position during the test. It may request a system permission where required.</p>
+<p>The saved result includes arm side, date and time, duration, stop reason and indicators calculated from movement. Motion samples are processed during the test; the diary stores results and indicators, not the full sequence of samples.</p>
+<p>Charts and estimated MG-ADL/MG-QoL scores are calculated on your device from diary data. The estimates and test do not replace clinical assessment using validated scales. Do not use the app to decide medication changes; consult a healthcare professional.</p></section>
+<section id="storage"><h2>4. Local storage and protection</h2>
+<p>Diary data is kept in Ministen’s local storage. The app applies encryption to questionnaire, profile, medication, imported activity and test records. The material needed to open these records also remains on the device. We do not provide diary recovery or synchronization from a Ministen server.</p>
+<p>Language and theme preferences, monitoring dates and the import choice are stored locally. If you use the app lock through device authentication, the system handles verification and Ministen keeps a local credential identifier, not fingerprints or facial images.</p>
+<p>Protect your device and its unlock code. Local encryption does not protect every exported copy or guarantee confidentiality on a compromised device. PDF, Excel and CSV files generated by the app are not protected by a password set by Ministen.</p></section>
+<section id="retention"><h2>5. How long data is kept</h2>
+<p>Saved diary data, including imported activity totals, has <strong>no automatic expiry</strong>. It stays on the device until deleted or until the app’s data is removed through the operating system. Ministen does not automatically delete older days when updating the last 30 days.</p>
+<p>Native exports may leave temporary copies in the app’s private cache. The operating system can clear this cache; the version 1.5 deletion command also removes identifiable temporary Ministen export copies.</p>
+<p>Files you have saved or shared outside the app follow the retention, backup and deletion settings of the destinations you selected. We cannot delete them remotely from your diary.</p></section>
+<section id="deletion"><h2>6. How to delete data</h2>
+<p><strong>In version 1.5:</strong> open <strong>Home → Data management → Delete diary data</strong> and read the confirmation. The command deletes questionnaires, profile, medication, imported activity copies, test results, local statistics, legacy-format copies and temporary export copies in Ministen’s private cache.</p>
+<p>Imports are turned off to prevent new data from reappearing immediately after deletion. You must enable them again to import new data. Language, theme and app protection settings are kept. If deletion does not finish, the app says it needs to be completed and offers a retry, without confirming unverified success.</p>
+<p><strong>In earlier versions</strong> the new command may not be available. On Android you can remove the local store through device settings, usually <strong>Apps → Ministen → Storage → Clear data</strong>, or by uninstalling the app. Names and behaviour can vary by operating system; manage any backups or external copies separately.</p>
+<p>Deleting the diary does not remove original data in Health Connect or Apple Health or files already saved or shared elsewhere. Deleting local data is irreversible: first keep any exports you want to retain.</p></section>
+<section id="permissions"><h2>7. Choice, disabling imports and revocation</h2>
+<p>In version 1.5 you can open <strong>Review choice and permissions</strong> on Home and select <strong>Turn off imports</strong>. You can also revoke Ministen’s access in Health Connect or Apple Health settings. Refusing or revoking access does not prevent use of diary features that do not need that data.</p>
+<p>Turning off imports or revoking permission stops new reads; it <strong>does not delete copies already imported</strong>. To remove these copies, use diary data deletion or the operating system’s controls. Deleting the diary does not automatically revoke system permissions.</p>
+<p>The app stores your choice, the disclosure version and the date locally. This preference allows your choice to be respected on subsequent launches. If you grant only some Android permissions, only authorized data types are read.</p></section>
+<section id="export"><h2>8. Exports, sharing and other services</h2>
+<p>When you request a PDF, Excel or CSV, the report may contain profile information, medication, responses and notes, dates, imported activity and test results, depending on the format and available data. Check its content before sharing it.</p>
+<p>On Android the app prepares a private cache copy and opens the system share sheet; you choose an app, recipient or storage service. On other platforms it may open a system preview or download the file through the browser. Sending it is your choice.</p>
+<p>Ministen does not sell diary data or transmit it to advertising, analytics or model-training services. If you choose to send a report, open an external link or contact us by email, the service you use handles the transmitted information under its own terms.</p></section>
+<section id="website"><h2>9. Website and access to this policy</h2>
+<p>This static website has no forms to receive your diary and does not integrate advertising, analytics or tracking cookies operated by Ministen.</p>
+<p>The site and this policy are hosted on GitHub Pages. When you open them, including from the app, your browser or web view contacts GitHub: the provider may process your IP address and technical access information to deliver and protect the service. The <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a> applies. Your diary is not attached to the page request.</p>
+<p>You can read this policy without creating an account. Italian and English versions are available through the links at the top of the page and do not require JavaScript.</p></section>
+<section id="contact-policy"><h2>10. Developers and privacy contact</h2>
+<p>Ministen is developed and operated by <strong>Luca and Marco Bosco</strong>, VAT No. <strong>05412290263</strong>, Treviso, Italy.</p>
+<p>Email: <a href="mailto:ministenapp@gmail.com">ministenapp@gmail.com</a><br>Telephone: <a href="tel:+393932289236">+39 393 228 9236</a>.</p>
+<p>Use these contacts for questions about this policy or information you choose to send us. We do not have remote access to your local diary: you must use your device to view, export or delete it. Avoid attaching health information to support requests unless necessary.</p>
+<p>This policy was updated on 24 October 2026. Material changes to functionality or data handling will require updated information and, where needed, a new choice in the app.</p></section><div class="policy-note"><strong>Personal use</strong><p>Ministen does not provide diagnosis, treatment recommendations or medical advice and does not replace consultation with a healthcare professional.</p></div></article>
+    </div>
+  </main>
+  <footer class="site-footer"><div class="shell footer-inner"><div><strong>Ministen</strong><p>Developed and operated by Luca and Marco Bosco<br>VAT No. 05412290263 · Treviso, Italy</p></div><div class="footer-links"><a href="index.html">Home</a><a href="index.html#contact">Contact</a></div><p class="copyright">© 2026 Ministen</p></div></footer>
+</body></html>
